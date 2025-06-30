@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Session</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Quiz session</h1>
+
+    <div class="question-container">
+        <p style="color: aquamarine;">Question no: 1 How many Indian fighter jets were shot down by the Pakistan Air Force?</p>
+        <label><input type="radio" name="q1" value="one"> One</label><br>
+        <label><input type="radio" class="correct" name="q1" value="two"> Two</label><br>
+        <label><input type="radio" name="q1" value="five"> Five</label><br>
+        <label><input type="radio" name="q1" value="nine"> Nine</label><br>
+        <button type="button" onclick="call()">Submit</button>
+        <button type="reset">Reset</button>
+        <p class="result"></p>
+    </div>
+
+    <div class="question-container">
+        <p>Question no: 2 What is the name of the capital of Pakistan?</p>
+        <label><input type="radio" class="correct" name="q2" value="islamabad"> Islamabad</label><br>
+        <label><input type="radio" name="q2" value="multan"> Multan</label><br>
+        <label><input type="radio" name="q2" value="karachi"> Karachi</label><br>
+        <label><input type="radio" name="q2" value="lahore"> Lahore</label><br>
+        <button type="button" onclick="call1()">Submit</button>
+        <p class="result2"></p>
+    </div>
+
+    <div class="question-container">
+        <p>Question no: 3 What was the first capital of Pakistan?</p>
+        <label><input type="radio" name="q3" value="islamabad"> Islamabad</label><br>
+        <label><input type="radio" name="q3" value="multan"> Multan</label><br>
+        <label><input type="radio" class="correct" name="q3" value="karachi"> Karachi</label><br>
+        <label><input type="radio" name="q3" value="lahore"> Lahore</label><br>
+        <button type="button" onclick="call3()">Submit</button>
+        <p class="result3"></p>
+    </div>
+
+    <div class="question-container">
+        <p>Question no: 4 Pakistan became an independent nation on?</p>
+        <label><input type="radio" name="q4" value="september_25_1947"> September 25, 1947</label><br>
+        <label><input type="radio" name="q4" value="september_22_1946"> September 22, 1946</label><br>
+        <label><input type="radio" name="q4" value="july_5_1947"> July 5, 1947</label><br>
+        <label><input type="radio" class="correct" name="q4" value="august_14_1947"> August 14, 1947</label><br>
+        <button type="button" onclick="call4()">Submit</button>
+        <p class="result4"></p>
+    </div>
+
+    <div class="question-container">
+        <p>Question no: 5 When was Pakistan's first constitution adopted?</p>
+        <label><input type="radio" name="q5" value="1964"> 1964</label><br>
+        <label><input type="radio" name="q5" value="1959"> 1959</label><br>
+        <label><input type="radio" class="correct" name="q5" value="1956"> 1956</label><br>
+        <label><input type="radio" name="q5" value="1962"> 1962</label><br>
+        <button type="button" onclick="call5()">Submit</button>
+        <p class="result5"></p>
+    </div>
+
+    <script src="quiz.js"></script>
+
+</body>
+</html>
